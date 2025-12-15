@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+agno-env/
+venv/
+ENV/
+env/
+.venv
+
+# Environment Variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Agno/AgentOS
+aegis_orchestrator.db
+*.db
+*.db-journal
+
+# Outputs
+outputs/
+temp/
+*.xlsx
+*.csv
+*.pdf
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+site/
+docs/_build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Project specific
+agno-source/
+shared_links.json
+token.json
